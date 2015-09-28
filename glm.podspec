@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "glm"
-  s.version          = "0.9.7.1"
+  s.version          = "0.9.4.6"
   s.summary          = "OpenGL Mathematics"
   s.description      = <<-DESC
                        Forked from http://glm.g-truc.net
