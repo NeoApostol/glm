@@ -3,11 +3,11 @@ Pod::Spec.new do |s|
   s.version          = "0.9.4.6"
   s.summary          = "OpenGL Mathematics"
   s.description      = <<-DESC
-                       Forked from http://glm.g-truc.net
+                       Forked from http://glm.g-truc.net. Adds a Podspec to the repository.
                        DESC
   s.homepage         = "https://github.com/maxcampolo/glm"
   s.license          = 'see LICENSE.txt'
-  s.authors          = { "Max Campolo" => "mc@mc.com" }
+  s.authors          = { "Max Campolo" => "m.campolo91@gmail.com" }
   s.source           = { :git => "https://github.com/maxcampolo/glm.git", :tag => s.version.to_s }
 
   s.requires_arc     = false
