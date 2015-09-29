@@ -14,6 +14,8 @@ Pod::Spec.new do |s|
 
   s.header_dir       = "glm"
   s.header_mappings_dir = "glm"
+ 
+  s.library = 'c++'
 
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
