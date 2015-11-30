@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                        Forked from http://glm.g-truc.net. Adds a Podspec to the repository.
                        DESC
   s.homepage         = "https://github.com/maxcampolo/glm"
-  s.license          = 'see LICENSE.txt'
+  s.license          = {:type => 'MIT', :file => 'copying.txt' }
   s.authors          = { "Christophe Riccio" => "glm@g-truc.net", "Max Campolo" => "m.campolo91@gmail.com" }
   s.source           = { :git => "https://github.com/g-truc/glm.git", :tag => s.version.to_s }
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.header_dir       = "glm"
   s.header_mappings_dir = "glm"
  
-  s.library = 'c++'
+  s.libraries = 'c++'
 
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
