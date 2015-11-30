@@ -4,11 +4,11 @@ Pod::Spec.new do |s|
   s.version          = "0.9.7.1"
   s.summary          = "OpenGL Mathematics"
   s.description      = <<-DESC
-                       Forked from http://glm.g-truc.net. Adds a Podspec to the repository.
+                       OpenGL Mathematics is a header only C++ mathematics library for graphics software based on the OpenGL Shading Language specifications.
                        DESC
-  s.homepage         = "https://github.com/maxcampolo/glm"
+  s.homepage         = "http://glm.g-truc.net"
   s.license          = {:type => 'MIT', :file => 'copying.txt' }
-  s.authors          = { "Christophe Riccio" => "glm@g-truc.net", "Max Campolo" => "m.campolo91@gmail.com" }
+  s.authors          = { "Christophe Riccio" => "glm@g-truc.net"}
   s.source           = { :git => "https://github.com/g-truc/glm.git", :tag => s.version.to_s }
 
   s.requires_arc     = false
