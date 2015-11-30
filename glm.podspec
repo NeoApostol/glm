@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "glm"
+  s.module_name      = "glm"
   s.version          = "0.9.7.1"
   s.summary          = "OpenGL Mathematics"
   s.description      = <<-DESC
