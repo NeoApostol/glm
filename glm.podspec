@@ -25,6 +25,5 @@ Pod::Spec.new do |s|
 
   s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/glm' }
   s.preserve_paths = 'glm/**/*{.h,.hpp,.inl}'
-  s.public_header_files = 'glm/**/*{.h,.hpp}'
-  s.private_header_files = 'glm/**/*{.inl}'
+  s.public_header_files = 'glm/**/*{.h,.hpp,.inl}'
 end
