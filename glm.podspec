@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "glm"
   s.module_name      = "glm"
-  s.version          = "0.9.7.1"
+  s.version          = "0.9.4.6"
   s.summary          = "OpenGL Mathematics"
   s.description      = <<-DESC
                        OpenGL Mathematics is a header only C++ mathematics library for graphics software based on the OpenGL Shading Language specifications.
